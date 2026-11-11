@@ -1,0 +1,25 @@
+.booking-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 52px;
+  padding: 0 25px;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--color-primary);
+  font-size: 0.94rem;
+  font-weight: 600;
+  transition:
+    background 0.2s,
+    transform 0.2s;
+  cursor: pointer;
+}
+.booking-button:hover {
+  background: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+.booking-button span {
+  font-size: 1.1rem;
+    cursor: pointer;
+}
